@@ -480,8 +480,8 @@ class _ImageSliderExampleState extends State<ImageSliderExample> {
   }
 }
 
-class HomeWorkExample extends StatelessWidget {
-  const HomeWorkExample({super.key});
+class HomeWorkExample2 extends StatelessWidget {
+  const HomeWorkExample2({super.key});
 
   @override
   Widget build(BuildContext context) {
