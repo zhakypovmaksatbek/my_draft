@@ -45,5 +45,18 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>We need your location to show you the map</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need your location to show you the map</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need your location to show you the map</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_dartobservatory._tcp</string>
+		<string>_dartobservatory._tcp.</string>
+	</array>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>This app needs access to local network for development and debugging purposes</string>
 </dict>
 </plist>

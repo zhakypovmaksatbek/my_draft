@@ -1,4 +1,4 @@
-import 'package:dgis_mobile_sdk_map/dgis.dart' as sdk;
+import 'package:dgis_mobile_sdk_full/dgis.dart' as sdk;
 import 'package:flutter/material.dart';
 
 class MapScreen extends StatefulWidget {
@@ -13,7 +13,11 @@ class _MapScreenState extends State<MapScreen> {
   late final sdk.MapWidgetController mapWidgetController;
   @override
   void initState() {
-    sdkContext = sdk.DGis.initialize();
+    sdkContext = sdk.DGis.initialize(
+      keySource: sdk.KeySource.fromString(
+        sdk.KeyFromString("42301e5e-f427-472c-8662-124b26dd4083"),
+      ),
+    );
     mapWidgetController = sdk.MapWidgetController();
     super.initState();
   }
